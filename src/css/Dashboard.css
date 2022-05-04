@@ -1,0 +1,20 @@
+.main-Dashboard{
+  width: 90%;
+	height: 100%;
+	position: absolute;
+	top: 10%;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.container-Dashboard{
+	width: 100%;
+	min-height: 100vh;
+	overflow: auto;
+	background : linear-gradient( 45deg,black,rgba(0, 0, 0, 0.85));
+	position: relative;
+}
+.container-Dashboard::-webkit-scrollbar{
+	visibility: hidden;
+}
